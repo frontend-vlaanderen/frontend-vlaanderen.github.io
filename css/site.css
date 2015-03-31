@@ -6138,12 +6138,36 @@ button.close {
     display: none !important;
   }
 }
-h1 {
-  color: #f6586a;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-@media screen and (min-width: 768px) {
-  h1 {
-    font-size: 60px;
-    font-size: 5.5vw;
-  }
+body > * {
+  flex: 1;
+}
+#section-splash {
+  background-image: url(http://www.inspireyard.com/wp-content/uploads/2015/03/35-lovely-colorful-parrots-wallpaper-gallery27.jpg);
+  background-image: url(https://files.slack.com/files-pri/T045395TF-F047RR1NH/beautiful-colors-macaw-parrot-bird-tropical-island.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 500px;
+  height: 80vh;
+  text-align: center;
+}
+#section-splash #main-logo {
+  width: 180px;
+  padding: 15px 20px;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.7);
+}
+#section-splash #splash-bird {
+  max-width: 100%;
+  display: inline-block;
+}
+footer {
+  background-color: #222;
+  height: 30px;
+  flex: 0;
 }
