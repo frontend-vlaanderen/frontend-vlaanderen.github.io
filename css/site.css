@@ -6165,6 +6165,9 @@ body > * {
   max-width: 100%;
   display: inline-block;
 }
+#section-about {
+  padding-bottom: 30px;
+}
 footer {
   background-color: #222;
   height: 30px;
